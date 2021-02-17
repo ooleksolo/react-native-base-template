@@ -1,0 +1,53 @@
+{
+  "name": "react-native-base-template",
+  "version": "1.0.0",
+  "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "precommit": "npm run lint",
+    "prepublish": "npm run lint",
+    "init:husky": "husky install"
+  },
+  "files": [
+    "template/*.js",
+    "template/*.json",
+    "template/*.ts",
+    "template/__tests__",
+    "template/android",
+    "template/ios/HelloWorld",
+    "template/ios/HelloWorld-tvOS",
+    "template/ios/HelloWorld-tvOSTests",
+    "template/ios/HelloWorld.xcodeproj",
+    "template/ios/HelloWorld.xcworkspace",
+    "template/ios/HelloWorldTests",
+    "template/ios/Podfile",
+    "template/src",
+    "template/_buckconfig",
+    "template/_gitattributes",
+    "template/_gitignore",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ooleksolo/react-native-base-template"
+  },
+  "keywords": [
+    "react-native",
+    "typescript",
+    "jest",
+    "template",
+    "boilerplate"
+  ],
+  "author": "Oleksandr Soloviov <ooleksolo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ooleksolo/react-native-base-template/issues"
+  },
+  "homepage": "https://github.com/ooleksolo/react-native-base-template#readme",
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^2.0.0",
+    "eslint": "^7.20.0",
+    "husky": "^5.0.9",
+    "typescript": "^4.0.7"
+  }
+}
