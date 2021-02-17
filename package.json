@@ -1,6 +1,6 @@
 {
   "name": "react-native-base-template",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
